@@ -11,6 +11,7 @@ using log = LIBWEATHER.LogManager.LogManager;
 
 namespace LIBWEATHER
 {
+
     public static class Main
     {
         public static void GETWEATHER()
@@ -58,6 +59,8 @@ namespace LIBWEATHER
             {
                 using var reader = new StringReader(response_string);
                 Weather weather = (Weather)serializer.Deserialize(reader);
+                // save dataBase
+
             }
             catch
             (Exception ex)
@@ -65,6 +68,5 @@ namespace LIBWEATHER
                 log.WriteException(ex);
             }
         }
-
     }
 }
