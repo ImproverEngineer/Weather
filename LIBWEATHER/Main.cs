@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using LIBWEATHER.GETWEATHER;
 using log = LIBWEATHER.LogManager.LogManager;
+using LIBWEATHER.DBase;
 
 
 namespace LIBWEATHER
@@ -59,6 +60,20 @@ namespace LIBWEATHER
             {
                 using var reader = new StringReader(response_string);
                 Weather weather = (Weather)serializer.Deserialize(reader);
+                ///записываем погоду 
+                var sql = new SqlLight();
+                int weather_id = sql.InsertWeatherInDB(response_string: response_string);
+                if (weather_id > 0)
+                {
+                    log.Write("Данные о погоде получены и блогополучно записаны в таблицу weather.");
+                    /// записываем все остальное. 
+                    if (weather != null)
+                        sql.InsertLocationIndDB(weather_id: weather_id, weather: weather);
+                }
+                else
+                {
+                    throw new Exception("Не удалось записать данные о погоде в БД.");
+                }
                 // save dataBase
 
             }
