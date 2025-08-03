@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LIBWEATHER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce2fbd8f51d6d12e2cde0da9e4f59f45a158d2a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+709510bc6393673f0d6650ff5ef962b9939bb693")]
 [assembly: System.Reflection.AssemblyProductAttribute("LIBWEATHER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LIBWEATHER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

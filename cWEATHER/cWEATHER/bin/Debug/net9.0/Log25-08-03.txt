@@ -1,0 +1,94 @@
+03.08.25 12:03:38 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 12:03:39 03.08.2025 12:03[ERROR] Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'near "values": syntax error'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at LIBWEATHER.DBase.SqlLight.InsertValuesInDb(Values values) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 105
+   at LIBWEATHER.DBase.SqlLight.InsertFactInDB(Int32 location_id, Fact fact) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 90
+   at LIBWEATHER.DBase.SqlLight.InsertLocationIndDB(Int32 weather_id, Weather weather) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 77
+   at LIBWEATHER.Main.GETWEATHER() in S:\MY_PROJECT\WEATHER\LIBWEATHER\Main.cs:line 71
+03.08.25 12:04:02 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 12:04:08 03.08.2025 12:04[ERROR] Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'near "values": syntax error'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at LIBWEATHER.DBase.SqlLight.InsertValuesInDb(Values values) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 117
+   at LIBWEATHER.DBase.SqlLight.InsertFactInDB(Int32 location_id, Fact fact) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 89
+   at LIBWEATHER.DBase.SqlLight.InsertLocationIndDB(Int32 weather_id, Weather weather) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 78
+   at LIBWEATHER.Main.GETWEATHER() in S:\MY_PROJECT\WEATHER\LIBWEATHER\Main.cs:line 71
+03.08.25 12:05:33 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 12:15:11 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 12:16:53 03.08.2025 12:16[ERROR] Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at LIBWEATHER.DBase.SqlLight.InsertValuesInDb(Values values) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 117
+   at LIBWEATHER.DBase.SqlLight.InsertFactInDB(Int32 location_id, Fact fact) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 89
+   at LIBWEATHER.DBase.SqlLight.InsertLocationIndDB(Int32 weather_id, Weather weather) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 78
+   at LIBWEATHER.Main.GETWEATHER() in S:\MY_PROJECT\WEATHER\LIBWEATHER\Main.cs:line 71
+03.08.25 12:16:57 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 12:22:45 03.08.2025 12:22[ERROR] Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at LIBWEATHER.DBase.SqlLight.InsertValuesInDb(Values values) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 117
+   at LIBWEATHER.DBase.SqlLight.InsertFactInDB(Int32 location_id, Fact fact) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 89
+   at LIBWEATHER.DBase.SqlLight.InsertLocationIndDB(Int32 weather_id, Weather weather) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 78
+   at LIBWEATHER.Main.GETWEATHER() in S:\MY_PROJECT\WEATHER\LIBWEATHER\Main.cs:line 71
+03.08.25 12:24:57 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 14:35:40 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 14:35:40 03.08.2025 02:35[ERROR] System.InvalidOperationException: ExecuteReader can only be called when the connection is open.
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at LIBWEATHER.DBase.SqlLight.InsertValuesInDb(Values values) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 163
+03.08.25 14:37:09 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 14:53:00 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 14:56:10 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 14:56:10 03.08.2025 02:56[ERROR] System.InvalidOperationException: ExecuteReader can only be called when the connection is open.
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at LIBWEATHER.DBase.SqlLight.InsertValuesInDb(Values values) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 163
+03.08.25 14:57:03 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 14:57:03 03.08.2025 02:57[ERROR] System.InvalidOperationException: ExecuteReader can only be called when the connection is open.
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at LIBWEATHER.DBase.SqlLight.InsertValuesInDb(Values values) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 163
+03.08.25 14:57:42 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 14:57:42 03.08.2025 02:57[ERROR] System.InvalidOperationException: ExecuteReader can only be called when the connection is open.
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at LIBWEATHER.DBase.SqlLight.InsertValuesInDb(Values values) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 163
+03.08.25 14:58:00 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 14:58:09 03.08.2025 02:58[ERROR] System.InvalidOperationException: ExecuteReader can only be called when the connection is open.
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at LIBWEATHER.DBase.SqlLight.InsertValuesInDb(Values values) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 163
+03.08.25 14:58:18 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 15:01:04 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 15:18:03 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 15:20:03 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 15:22:30 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 15:25:12 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 15:25:12 03.08.2025 03:25[ERROR] Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: '8 values for 9 columns'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at LIBWEATHER.DBase.SqlLight.InsertFactInDB(Int32 location_id, Fact fact) in S:\MY_PROJECT\WEATHER\LIBWEATHER\DBase\SqlLight.cs:line 109
+03.08.25 15:25:27 Данные о погоде получены и блогополучно записаны в таблицу weather.
+03.08.25 15:26:34 Данные о погоде получены и блогополучно записаны в таблицу weather.
